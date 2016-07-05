@@ -1,6 +1,6 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) X CW Materials
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Android Programming 101 CWE Materials
 
-Welcome to General Assembly's X Workshop
+Welcome to General Assembly's Android Programming 101  Workshop
 
 This repository/folder contains all the materials General Assembly supplies for this workshop.
 
