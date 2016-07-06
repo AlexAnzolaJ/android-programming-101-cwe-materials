@@ -6,20 +6,18 @@ The following information is provided to help contextualize this class/workshop 
 
 ## Prerequisite(s)
 
-In order to make sure that students are best prepared for this workshop, we suggest recommending the following prerequisites. Students should have some basic foundations in the following areas:
+In order to make sure that students are best prepared for this workshop, we suggest recommending the following prerequisites. Students should be prepared with the following:
 
-* X
-* Y
-* Z
+* Install JDK
+* Install Android Studio (including an emulator)
 
 
 ## Follow-up Recommendations
 
 In order to provide students with continued pathways for growth, we suggest using the following resources to create a custom learning plan, based on your students' goals and interests:
 
-* X
-* Y
-* Z
+* Android Development Immersive
+* [Head First Android](https://www.amazon.com/Head-First-Android-Development-Griffiths/dp/1449362184/ref=sr_1_1?ie=UTF8&qid=1467811744&sr=8-1&keywords=head+first+android)
 
 ---
 
