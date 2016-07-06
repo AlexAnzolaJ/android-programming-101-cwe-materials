@@ -8,15 +8,15 @@ This repository/folder contains all the materials General Assembly supplies for 
 
 <!--  Taken from Confluence -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This workshop provides students with basic knowledge of the history of Android, how it compares to iOS, some of its advantages and disadvantages, and a brief introduction to developing a real Android app. This includes adding basic Views, but does not include any Java programming.
 
 #### Students Will Learn How To:
 
 <!-- a bulleted list of learning goals from Confluence -->
 
-- Goal 1
-- Goal 2
-- Goal 3
+- Explain the strengths and weaknesses of Android
+- Identify the basic Views in an Android app
+- Create a basic Android app
 
 ---
 
