@@ -14,6 +14,7 @@ This workshop provides students with basic knowledge of the history of Android, 
 
 <!-- a bulleted list of learning goals from Confluence -->
 
+- Understand the basic history and concepts of Android
 - Explain the strengths and weaknesses of Android
 - Identify the basic Views in an Android app
 - Create a basic Android app
