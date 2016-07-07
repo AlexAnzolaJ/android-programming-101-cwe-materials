@@ -119,9 +119,9 @@ One drawback is that because these are virtual, there are some features missing.
 
 > Open a new Android Studio project to show off the Views
 
-Now that we've covered the basics of what Android is, and the tools we use to develop Android apps, let's create one of our own!
+Now that we've covered the basics of Android's origins, and the tools we use to develop Android apps, let's create one of our own!
 
-Today we are only going to be covering creating the visual elements of our app, and not dealing with the Java code that controls everything behind the scenes.
+Today we are only going to be covering creating the visual elements of creating an Android app, and not dealing with the Java code that controls everything behind the scenes.
 
 #### What is a view?
 
@@ -310,7 +310,7 @@ You must assign the following ids to your views:
 **Welcome screen**
 - welcome text: `welcome`
 
-**Bonus**: Try changing the password edit text to it protects the text being typed.
+**Bonus**: Try changing the password edit text so it protects the text being typed.
 
 > Ask a student to go over their solution. Afterwards, point out a few interesting things in the Java code like how setError works, and how the password is checked.
 
