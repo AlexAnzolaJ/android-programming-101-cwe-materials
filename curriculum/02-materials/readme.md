@@ -10,10 +10,10 @@ creator:
 
 ### LEARNING OBJECTIVES
 *After this lesson, students will be able to:*
-* Understand the basic history and concepts of Android
+* Describe the basic history and concepts of Android
 * Explain the strengths and weaknesses of Android
 * Identify the basic Views in an Android app
-* Create a basic Android app
+* Create a basic two screen Android app, allowing the user to enter a username and password on a login screen, and then move to a welcome screen after logging in.
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -24,11 +24,17 @@ creator:
 
 #### What is Android?
 
-Android is a mobile operating system maintained by Google. It's an open source project, meaning that [anyone can download the source code of the operating system](https://source.android.com/source/index.html) and modify it for free.
+Android is a mobile operating system maintained by Google. It's an open source project, which can be defined as:
+
+`Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.`
+
+ In other words, [anyone can download the Android Operating System ](https://source.android.com/source/index.html) and modify it for free.
+
+ This is the opposite of iOS, where the exact details about the operating system are only known by Apple, and no modifications or customization is allowed.
 
 > Take 1 minute to discuss why this is important/useful. If students are having trouble, ask if anyone has used Amazon's Fire devices.
 
-Android is not based on Apple or Microsoft technologies; it's a distribution of Linux.
+
 
 ## Introduction: Welcome to Android! (15 mins)
 
@@ -50,8 +56,7 @@ Android is known for having many devices created by manufacturers (as opposed to
 * Too much choice for the consumer! There's such a large number of devices which makes it confusing for the consumer to decide which device is best for their needs.
 	* [The burden of choice](https://www.psychologytoday.com/blog/more-tech-support/201011/the-burden-choice): Psychologically, too much choice can be paralyzing.
 		* When you look at a menu with a lot of choices, the brain keeps bouncing back and forth, indecisively, looking for the best food to eat. This isn't a huge issue for menus with only a few choices.
-	* **Pro?**: If you can afford them, there are a handful of _really really_ good, [well advertised Android phones](http://www.androidauthority.com/best-android-phones-568001) to choose from.
-		* This limits the consumer's choices from hundreds to less than ten, but only if you have the funds for them.
+
 
 #### Versions
 
@@ -65,11 +70,16 @@ Yes, all of the versions have the names of candies or sweets! But the thing to t
 
 Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwich, Jellybean, KitKat, Lollipop, Marshmallow.
 
+> Have students with Android devices look up what versions of Android they are running, then tally up the count on the board.
+
 [Here's how the versions are broken down, and how many people own each version.](http://developer.android.com/about/dashboards/index.html)
 
-> Walk the students through the dashboard
+> Walk the students through the dashboard.
 
-As of today, most people own KitKat and Lollipop devices (as Marshmallow is still comparatively new).
+> Ask the students what the two most popular versions of Android are. Then, in pairs, give them a few minutes to discuss why they think the most recent version is not the most popular.
+
+
+As of today, most people own KitKat and Lollipop devices (as Marshmallow is still comparatively new). Unlike iOS, each device manufacturer is responsible for updating their devices to newer versions of Android. Some companies move at much slower speeds, which leaves many users stuck on older versions of Android.
 
 ## Demo: Developing for Android (20 mins)
 
@@ -89,13 +99,17 @@ Note: Eclipse was the IDE previously used for Android app development. However, 
 
 As you build and test your app, you have to run it on a device to make sure it behaves as expected. There are two ways to do that:
 
-**1. Use a physical device** -  It's *almost always* best to use an actual phone or tablet to test your app. The users would be using your app on a phone, so testing on one is ideal. Try to have at least one phone nearby to test on.
+**1. Use a physical device** -  
+
+> In small groups of 3-4, ask the students to brainstorm some ideas for pros and cons of using physical devices to test their apps. Regroup, write their ideas on the board, and discuss. Use the ideas below for further talking points.
+
+It's *almost always* best to use an actual phone or tablet to test your app. The users would be using your app on a phone, so testing on one is ideal. Try to have at least one phone nearby to test on.
 
 However, as mentioned in previous sections, there are many devices with varying screen sizes and a handful of versions for each device. Realistically, it's not possible to have access to every combination of device and version.
 
 > Check: To combat this issue, some developers believe in testing their app against the smaller selection of latest and more popular devices. Why would this possibly be a bad thing?
 
- Not everyone has the latest phones or versions.  You would be excluding a subset of people with older devices and versions who might be experiencing problems with you app that newer phones aren't experiencing.
+ Not everyone has the latest phones or versions.  You would be excluding a subset of people with older devices and versions who might be experiencing problems with your app that newer phones aren't experiencing.
 
  This is especially true for customers in developing countries, where the latest phones either are not available or not as popular as their cheaper counterparts.
 
@@ -107,13 +121,17 @@ Android Studio provides a Virtual Device Manager that allows you to configure a 
 
 You can also run an application called [Genymotion](https://www.genymotion.com/), which is another, faster version of the official Android Virtual Device Manager. It's not supported by Google, but it is a great resource.
 
-One drawback is that because these are virtual, there are some features missing.
+> In small groups of 3-4, ask the students to brainstorm some ideas for pros and cons of using virtual devices to test their apps. Regroup, write their ideas on the board, and discuss. Use the ideas below for further talking points.
 
-> Check: Give the students a minute to think about disadvantages of using an emulated device.
+One drawback is that because these are virtual, there are some features missing.
 
  There are some things you can't test easily, like using Google Maps, GPS, or other Google Play-related services. However, if you don't have access to a physical device, a virtual one is your best option.
 
- > Give the students a 5 minute break
+---
+
+## Give the students a 5 minute break
+
+---
 
 ## Introduction: Views (15 minutes)
 
@@ -121,19 +139,13 @@ One drawback is that because these are virtual, there are some features missing.
 
 Now that we've covered the basics of Android's origins, and the tools we use to develop Android apps, let's create one of our own!
 
+Android apps can be broken down into two main components: visual and logic. The visual component is written in a markup language called XML, which will we discuss soon. The logic component is written in a programming language called Java. This controls all actions that occur in the app, such as what happens when you press a button.
+
 Today we are only going to be covering creating the visual elements of creating an Android app, and not dealing with the Java code that controls everything behind the scenes.
 
 #### What is a view?
 
 A **View** is the basic building block for any app's user interface (UI). Views define components that can be seen by the user, such as text fields, buttons, and images.
-
-> Show the students the first image, and have them describe what they think the Views are on that screen. Then, show the second image to review.
-
-<a href="screenshots/tweet-screenshot.png"><img src="screenshots/tweet-screenshot.png" height="300px"></a> <a href="screenshots/tweet-screenshot_highlighted.png"><img src="screenshots/tweet-screenshot_highlighted.png" height="300px"></a>
-
-*(Left) A screen in Twitter, (Right) the same screen with common views highlighted*
-
-#### What are the types of views?
 
 > Open <a src="https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+Android+Views+Cheat+Sheet+(1).pdf">this cheatsheet</a> to show the students while you talk about each of the views
 
@@ -147,6 +159,8 @@ Some of the most commonly used views are:
 * ProgressBar
 * WebView
 
+Let's look at a few in more detail.
+
 #### TextViews
 
 Simply, they display text that's provided to them. You can change the text, text color, typeface, size, etc. Think of it like changing fonts in a word processor.
@@ -156,6 +170,14 @@ Simply, they display text that's provided to them. You can change the text, text
 Buttons are fancy TextViews. Just like a TextView, you can set its text and change its font attributes.
 
 Buttons, by default, have a background that react to a user's touch. (i.e., it looks like you are pressing a physical button). You can create your own custom buttons with unique behavior (or any custom View for that matter).
+
+#### Identifying views?
+
+> Show the students the first image, and have them describe what they think the Views are on that screen. Then, show the second image to review.
+
+<a href="screenshots/tweet-screenshot.png"><img src="screenshots/tweet-screenshot.png" height="300px"></a> <a href="screenshots/tweet-screenshot_highlighted.png"><img src="screenshots/tweet-screenshot_highlighted.png" height="300px"></a>
+
+*(Left) A screen in Twitter, (Right) the same screen with common views highlighted*
 
 #### How are views laid out on screen?
 
@@ -169,6 +191,8 @@ Buttons, by default, have a background that react to a user's touch. (i.e., it l
 
 *For the purposes of this workshop, we will only look at a LinearLayout.*
 
+> Check: Ask the students how a LinearLayout or RelativeLayout differ from other Views (TextView, Button, ImageView, etc.)
+
 Refer to <a src="https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+Android+Views+Cheat+Sheet+(1).pdf">this</a> online cheat sheet for help remembering different types of views and the corresponding syntax.
 
 ## Guided Practice: Let's draw a few Layouts (10 minutes)
@@ -180,6 +204,8 @@ In pairs, on your desks, draw and identify the components of the following UIs u
 * The description on a YouTube video
 
 You should have an idea of popular components for well-known applications.
+
+> Have one pair per screen share their drawings up on the whiteboard.
 
 ## Introduction: Layouts and XML (20 minutes)
 
@@ -196,7 +222,34 @@ Android Studio provides two ways of creating layouts: a design editor, and a tex
 
 First, we are going to take a look at the text editor. It provides the most powerful interface for changing are layouts, but it is also the most manual and labor intensive.
 
-Layouts in Android are written in XML (Extensible Markup Language) files. Each element (signified by the angle brackets) represents a different view or layout; attributes (the other text inside the angle brackets) define how the views and layouts are displayed to the user. For instance, you can set attributes like color and size.
+Layouts in Android are written in XML (Extensible Markup Language) files. Today, we can break the XML syntax down into two parts: Elements and Attributes.
+
+Every XML element is surrounded by angle brackets, and has a title, which represents a different view or layout. For example, a button element looks like this.
+
+```xml
+<Button></Button>
+```
+
+Alternatively, it can be written like this.
+
+```xml
+<Button />
+```
+
+Elements that don't hold other views, like a Button, can be defined with a / at the end of the tag instead of having a matching ending tag. If you want a button to appear on the screen, you put that XML element in your layout XML file.
+
+
+Attributes (the other text inside the angle brackets) define how the views and layouts are displayed to the user. An attribute has a name and a value. For instance, you can set attributes like color and size.
+
+Let's add an attribute to our button.
+
+```xml
+<Button android:text="Press me!" />
+```
+
+This makes a button, sets an attribute called android:text to the value "Press me!". By setting this, the button would say "Press me!" inside of it. Attributes with "android:" before their name are attributes provided by Android to modify properties of the view.
+
+When we created this project, it added an XML element for us, a RelativeLayout.
 
 > Point out the RelativeLayout tag already existing. Ask if anyone remembers the other Layout discussed earlier, and have them change it to the LinearLayout and add a vertical orientation
 
@@ -214,9 +267,6 @@ Here's an example of how a TextView is represented in xml:
         android:text="Hello World!" />
 ```
 
-Elements that don't hold other views, like TextView, can be defined with a / at the end of the tag instead of having a matching ending tag.  Attributes with "android:" before their name are attributes provided by Android to modify properties of the view.
-
-
 Every element ***is required*** to have **layout_width** and **layout_height** attributes. Otherwise, the app will not compile.
 
 `layout_width` and `layout_height` can be defined in 3 ways:
@@ -227,11 +277,15 @@ Every element ***is required*** to have **layout_width** and **layout_height** a
 
 The **id** attribute is not mandatory, but is important. It is used whenever you want to reference a view, such as in a RelativeLayout, or if you want something to happen when you click on it. Think of it like giving your view a unique name you can call it.
 
-> Check: If I were to define a button, what attributes would I be required to define?
+> In pairs, have the students add width, height, and id attributes to the button that was used as an example before.
+
+> Check: If I were to define an ImageView, what attributes would I be required to define?
 
 ## Demo: XML Layout (10 minutes)
 
 Here's a more detailed example of a full xml layout:
+
+> Give the students a minute to copy the code below into their projects.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -285,11 +339,9 @@ Now, switch to the text editor and see our button appear in XML.
 
 ## Independent Practice: Build your own app! (20 minutes)
 
-> This can be done as a pair programming exercise.
+> This can be done as a pair programming exercise. Show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed.
 
-> Show the students what the final app will look like.
-
-Open up the starter-code contained in the zip file.
+Open up the starter-code contained in the zip file. This starter code is an Android Studio project that contains empty layout files for you to fill out. It also contains java files written for you that handle all of the logic for button presses and switching screens.
 
 Today we will be building a login screen and a welcome screen. Using the complete app as an example, try to make yours match as closely as possible. Don't worry about setting default text on the welcome screen, the starter code will do it for you when the user logs in. **Remember to experiment with different options in the properties list.**
 

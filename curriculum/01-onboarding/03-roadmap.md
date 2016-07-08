@@ -8,8 +8,9 @@ The following information is provided to help contextualize this class/workshop 
 
 In order to make sure that students are best prepared for this workshop, we suggest recommending the following prerequisites. Students should be prepared with the following:
 
-* Install JDK
-* Install Android Studio (including an emulator)
+- [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (Install this first. Choose the correct link for your operating system in the Java SE Development Kit 8u92 section)
+- [Android Studio](https://developer.android.com/studio/index.html)
+- [Install Emulator in Android Studio](https://developer.android.com/studio/run/managing-avds.html)
 
 
 ## Follow-up Recommendations
