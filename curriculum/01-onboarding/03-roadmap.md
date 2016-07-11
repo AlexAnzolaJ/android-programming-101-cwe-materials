@@ -6,20 +6,19 @@ The following information is provided to help contextualize this class/workshop 
 
 ## Prerequisite(s)
 
-In order to make sure that students are best prepared for this workshop, we suggest recommending the following prerequisites. Students should have some basic foundations in the following areas:
+In order to make sure that students are best prepared for this workshop, we suggest recommending the following prerequisites. Students should be prepared with the following:
 
-* X
-* Y
-* Z
+- [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (Install this first. Choose the correct link for your operating system in the Java SE Development Kit 8u92 section)
+- [Android Studio](https://developer.android.com/studio/index.html)
+- [Install Emulator in Android Studio](https://developer.android.com/studio/run/managing-avds.html)
 
 
 ## Follow-up Recommendations
 
 In order to provide students with continued pathways for growth, we suggest using the following resources to create a custom learning plan, based on your students' goals and interests:
 
-* X
-* Y
-* Z
+* Android Development Immersive
+* [Head First Android](https://www.amazon.com/Head-First-Android-Development-Griffiths/dp/1449362184/ref=sr_1_1?ie=UTF8&qid=1467811744&sr=8-1&keywords=head+first+android)
 
 ---
 
