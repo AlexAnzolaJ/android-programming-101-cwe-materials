@@ -50,8 +50,5 @@ Please check out our [contributing guidelines](contributing.md) for more details
 
 
 ## Licensing
-
-<!--  remember to replace the placeholder content in curly braces in the GNU license -->
-
-1. All content is licensed under a CC-BY-NC-SA 4.0 license.
-2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
