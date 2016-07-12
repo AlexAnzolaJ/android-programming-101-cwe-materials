@@ -1,12 +1,12 @@
 ---
-title: Android 101 Workshop
+title: Android Programming 101 
 type: Lesson
 duration: "2:30"
 creator:
     name: Drew Mahrt
     city: NYC
 ---
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introduction to Android
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Android Programming 101
 
 ### LEARNING OBJECTIVES
 *After this lesson, students will be able to:*
