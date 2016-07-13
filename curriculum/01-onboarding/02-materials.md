@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Class/Workshop: Materials
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Materials
 
 In this file, we'll review the materials we provide to help you teach this workshop.
 
@@ -11,8 +11,8 @@ We supply instructors with five specific resources for this workshop:
 1. Lesson Plan: A detailed outline with objectives, exercises, and checkpoints.
 2. Starter & Solution Assets: Code and materials students can use to practice and review.
 3. Assessment: A summative activity to encapsulate their work.
-4. Lesson Decks: A slide deck to use when presenting the lesson.
-5. Handout: A one page handout that reviews major concepts and takeaways.
+4. Lesson Decks: A [slide deck](https://docs.google.com/presentation/d/1fPtEYZlK4s7Z0h5leMIHFNYmsq2oPUsXeWEXp91F-N4/edit?usp=sharing) to use when presenting the lesson.
+5. Handout: A [one-page handout](#) that reviews major concepts and takeaways.
 
 
 ## What Should I Do With Them?
@@ -24,16 +24,12 @@ Be sure to add your own personal touch! Review the materials ahead of time and a
 ---
 
 ## Folder Navigation
-Our lesson folder is organized in the following pattern:
+Our [materials](../02-materials) folder is organized in the following pattern:
 
 - **Lesson**: includes the root lesson readme file.
-  - _Starter Code_: __________________ code to help students begin activities.
-  - _Solution Code_: _________________ completed versions of code to help students check their work.
-  - _Assets_
-    - **Dataset**: Any dataset(s) used during the workshop
-    - **Images**: Any images used during the workshop
-    - **Slides**: Slide deck provided for this workshop
-    - **Handout**: Sample takeaway handout for this workshop
+  - _Starter Code_: code to help students begin activities.
+  - _Solution Code_: completed versions of code to help students check their work.
+  - _Screenshots_: images referenced during the workshop
 
 ## Workshop Structure
 
@@ -49,7 +45,7 @@ Our lesson plan is organized as follows:
   - _Topic - Demo:_ Walk through material sequentially as a class
   - _Topic - Guided Practice_: Short practice activity students should practice with help
   - _Topic - Independent Practice_: Summative activity students should complete on their own
-  - _Conclusion_: Review, Q&A, Exit Tickets
+  - _Conclusion_: Review, Q&A
 6. **Additional Resources**: Links that you should feel free to add to or supplement
 
 

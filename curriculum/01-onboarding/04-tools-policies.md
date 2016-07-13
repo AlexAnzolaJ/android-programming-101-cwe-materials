@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Class/Workshop: Tools & Policies
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Tools & Policies
 
 This course teaches students about the basics of the Android ecosystem and Android development. This field is constantly evolving, and it would be impossible to introduce every tool in one workshop.
 
@@ -7,11 +7,11 @@ Instead, General Assembly provides a core set of objectives for this workshop, a
 
 ## Required Tools
 
-- [Github](www.github.com) - We’re using Github to store and share our code
 - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Android Studio](https://developer.android.com/studio/index.html)
 
 #### Optional Tools
+
 These tools aren't required, but offer additional functionality that students may find helpful!
 
 - Popular Text Editors: [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
@@ -38,11 +38,7 @@ It is also our experience that students should have laptops with screens of at l
 
 #### Questions? Issues?
 
-1. If you see elements you would like to add, improve, or change, please feel free to submit a **pull request** with your modifications! A member of our instructional team will make sure to review and merge applicable changes.
-
-2. If you see bugs, typos, or other elements that need flagging, please file a **Github Issue**. A member of our instructional team will be sure to review and prioritize as needed.
-
-3. If you encounter any other problems not mentioned here, please submit a ticket to our [GA Helpdesk]()
+If you see elements you would like to add, improve, or change, please feel free to review our [contributing guidelines](../../contributing.md) and create an issue or open a pull request!
 
 ---
 

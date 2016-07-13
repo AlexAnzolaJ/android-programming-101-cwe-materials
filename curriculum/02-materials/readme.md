@@ -1,5 +1,5 @@
 ---
-title: Android Programming 101 
+title: Android Programming 101
 type: Lesson
 duration: "2:30"
 creator:
@@ -17,13 +17,14 @@ creator:
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
+- Create a copy of [deck provided](https://docs.google.com/presentation/d/1fPtEYZlK4s7Z0h5leMIHFNYmsq2oPUsXeWEXp91F-N4/edit?usp=sharing) and modify as needed
 - Make sure you have Android Studio installed and configured, including an emulator
 - Have whiteboard markers ready for each student
 - Write the learning objectives on the board
 
 ### STUDENT PRE-WORK
 - A laptop is required for this workshop.  For those on Windows, you’ll need Microsoft Windows 7/8/10 (32- or 64-bit).  For those with Macs, you’ll need the Mac OS X 10.8.5 or higher, up to 10.11.4 (El Capitan)
-- Basic technical aptitude and orientation to computers, and curiosity to learn new tools.
+- Have basic technical aptitude and orientation to computers, and curiosity to learn new tools
 - Download Java Development Kit (Install this first. Choose the correct link for your operating system in the Java SE Development Kit 8u92 section)
 - Download Android Studio
 - Install Emulator in Android Studio
@@ -174,7 +175,7 @@ One drawback is that because these are virtual, there are some features missing.
 
 ---
 
-## Introduction: Views (15 minutes)
+## Introduction: Views (15 mins)
 
 > Instructor Note: Open a new Android Studio project to show off the Views.
 
@@ -236,7 +237,7 @@ Buttons, by default, have a background that react to a user's touch. (i.e., it l
 
 Refer to <a src="https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+Android+Views+Cheat+Sheet+(1).pdf">this</a> online cheat sheet for help remembering different types of views and the corresponding syntax.
 
-## Guided Practice: Let's draw a few Layouts (10 minutes)
+## Guided Practice: Let's draw a few Layouts (10 mins)
 
 In pairs, on your desks, draw and identify the components of the following UIs using the views we just learned:
 
@@ -248,7 +249,7 @@ You should have an idea of popular components for well-known applications.
 
 > Instructor Note: Have one pair per screen share their drawings up on the whiteboard.
 
-## Introduction: Layouts and XML (20 minutes)
+## Introduction: Layouts and XML (20 mins)
 
 
 #### How do I create my UI using layouts?
@@ -324,7 +325,7 @@ The **id** attribute is not mandatory, but is important. It is used whenever you
 
 > Check: If I were to define an ImageView, what attributes would I be required to define?
 
-## Demo: XML Layout (10 minutes)
+## Demo: XML Layout (10 mins)
 
 Here's a more detailed example of a full xml layout:
 
@@ -368,7 +369,7 @@ In this example, take note of the following:
 
 	* Because it is a TextView, it also defines its optional parameters: text size is 20 scaled pixels, text color is the hex code for black, and the text style is bold.
 
-## Demo: Design editor (10 minutes)
+## Demo: Design editor (10 mins)
 
 The design editor is a much more visual interface. It allows for easier and more rapid placement of Views, but tweaking properties is more cumbersome, and the preview isn't always completely accurate.
 
@@ -380,7 +381,7 @@ Now, switch to the text editor and see our button appear in XML.
 
 > Check: Ask the students if it is better to use the design editor or text editor? (Use both)
 
-## Independent Practice: Build your own app! (20 minutes)
+## Independent Practice: Build your own app! (20 mins)
 
 > Instructor Note: This can be done as a pair programming exercise. Show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed.
 
@@ -410,6 +411,8 @@ You must assign the following ids to your views:
 > Ask a student to go over their solution. Afterwards, point out a few interesting things in the Java code like how setError works, and how the password is checked.
 
 ## Conclusion (5 mins)
+
+> Instructor Note: Distribute and explain the [one-page handout provided](#)
 
 A few review questions:
 

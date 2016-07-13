@@ -4,23 +4,11 @@ Our instructor community has grown tremendously, and local markets do so much to
 
 Included in this file is information about:
 
-- [__________ GitHub Community](#the-community)
 - [Contributing Guidelines for Issues or Pull Requests](#contributing-guidelines-issues-and-pull-requests)
 - [Using Labels Appropriately](#labels)
 - [Contributor Expectations](#contributors-expectations)
 
 _Note: A lot of the language in this Readme has been taken and adapted from GitHub's guidelines about contributing to open-source projects_.
-
-
-## The Community
-
-We've broken down the community as follows:
-
-- **Maintainers** (write access to the repository): Instructional Designers & Product Managers
-
-- **Contributors** (everyone who can open and have a pull request merged into a project): Instructors, Subject Matter Experts
-
-- **Community Members** (users who often use and care deeply about the project and are active in discussions for future updates): GA Producers & Regional Directors'
 
 ## Contributing Guidelines: Issues and Pull Requests
 
