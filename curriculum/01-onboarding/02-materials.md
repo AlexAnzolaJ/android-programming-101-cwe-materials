@@ -12,7 +12,7 @@ We supply instructors with five specific resources for this workshop:
 2. Starter & Solution Assets: Code and materials students can use to practice and review.
 3. Assessment: A summative activity to encapsulate their work.
 4. Lesson Decks: A [slide deck](https://docs.google.com/presentation/d/1fPtEYZlK4s7Z0h5leMIHFNYmsq2oPUsXeWEXp91F-N4/edit?usp=sharing) to use when presenting the lesson.
-5. Handout: A [one-page handout](#) that reviews major concepts and takeaways.
+5. Handout: A [one-page handout](../02-materials/assets/android-programming-101-one-pager.pdf) that reviews major concepts and takeaways.
 
 
 ## What Should I Do With These Materials?
@@ -26,7 +26,7 @@ Be sure to add your own personal touch! Review the materials ahead of time and a
 ## Folder Navigation
 Our [materials](../02-materials) folder is organized in the following pattern:
 
-- **Lesson**: includes the root lesson readme file.
+- **Lesson**: includes the root lesson readme file; note that this readme is written in a student-facing tone with instructor asides denoted by `>`.
   - _Starter Code_: code to help students begin activities.
   - _Solution Code_: completed versions of code to help students check their work.
   - _Screenshots_: images referenced during the workshop

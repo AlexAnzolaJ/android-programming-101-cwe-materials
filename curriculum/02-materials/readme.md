@@ -17,7 +17,7 @@ creator:
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
-- Create a copy of [deck provided](https://docs.google.com/presentation/d/1fPtEYZlK4s7Z0h5leMIHFNYmsq2oPUsXeWEXp91F-N4/edit?usp=sharing) and modify as needed
+- Create a copy of [deck provided](https://docs.google.com/presentation/d/1fPtEYZlK4s7Z0h5leMIHFNYmsq2oPUsXeWEXp91F-N4/edit?usp=sharing), carefully read through the deck and fill in place holder content
 - Make sure you have Android Studio installed and configured, including an emulator
 - Have whiteboard markers ready for each student
 - Write the learning objectives on the board
@@ -62,7 +62,7 @@ Let's review what we're going achieve by the end of today's lesson:
 
 But before we dive in, a bit about you!
 
-> Instructor Note: Have each student say their name and one sentence about why they're taking this course.
+> Instructor Note: Have each student say their name and one sentence about why they're taking this class.
 
 #### What is Android?
 
@@ -242,7 +242,7 @@ Refer to <a src="https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+
 In pairs, on your desks, draw and identify the components of the following UIs using the views we just learned:
 
 * A screen showing a post on Facebook or Twitter
-* A screen showing someones Tinder profile
+* A screen showing someone's Tinder profile
 * A screen showing the description of a YouTube video
 
 You should have an idea of popular components for well-known applications.
@@ -383,7 +383,8 @@ Now, switch to the text editor and see our button appear in XML.
 
 ## Independent Practice: Build your own app! (20 mins)
 
-> Instructor Note: This can be done as a pair programming exercise. Show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed.
+> Instructor Note: This can be done as a pair programming exercise. First, share this link with students and ask them to click on "View Raw" to download the starter code: https://github.com/generalassembly-studio/android-programming-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/DemoApp.zip
+Then, show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed. Be sure to help students through opening the starter code. 
 
 Open up the starter-code contained in the zip file. This starter code is an Android Studio project that contains empty layout files for you to fill out. It also contains java files written for you that handle all of the logic for button presses and switching screens.
 
