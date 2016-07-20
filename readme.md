@@ -20,23 +20,21 @@ This workshop provides students with basic knowledge of the history of Android, 
 
 Included in this repository:
 
-1. [**Onboarding Materials**](curriculum/01-onboarding) - Background context & instructions for how to make use of our materials.
+1. [**Onboarding Materials**](curriculum/01-onboarding) - Background context and instructions for how to make use of our materials.
 
-2. [**Teaching Materials**](curriculum/02-materials) - Lesson plan, activities and assessment, deck, and handout.
+2. [**Teaching Materials**](curriculum/02-materials) - Lesson plan, activities and assessment, deck, and student-facing assets.
 
 3. [**Contributing Guidelines**](contributing.md) - information about how to submit materials you create, adapt, or fix back to the global General Assembly team
 
 
 ## To Get Started
 
-If this is your first time teaching this workshop, welcome!! Please take *15 minutes* to read through the following onboarding materials to help get an understanding of your responsibilities as an instructor and gain some background context on this course.
+If this is your first time teaching this workshop, welcome!! Please take *10 minutes* to read through the following topic-specific onboarding materials to help get an understanding of your responsibilities as an instructor and gain some background context on this course.
 
 Document                            | Description
 ----------------------------------- | ------------------------------------------
-[Background](curriculum/01-onboarding/01-background.md) | Who we are and what we offer at General Assembly
-[Materials](curriculum//01-onboarding/02-materials.md) | Some context around the materials we provide
-[Roadmap](curriculum//01-onboarding/03-roadmap.md) | Prerequisites and some suggestions for how to learn more Android skills
-[Resources](curriculum//01-onboarding/04-tools-policies.md) | Description of tools used and relevant policies for this workshop
+[Roadmap](curriculum//01-onboarding/01-roadmap.md) | Prerequisites and some suggestions for students to learn more Android skills
+[Tools Policies](curriculum//01-onboarding/02-tools-policies.md) | Description of tools used and relevant policies for this workshop
 
 
 ## Contributing
