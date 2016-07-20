@@ -33,6 +33,23 @@ creator:
 
 > Instructor Note: Take 10 minutes to make sure students have installed Java, Android, Studio, and an Emulator.  Be sure to inform students that this step is important for the rest of the workshop.
 
+### LESSON GUIDE
+
+| TIMING  | TYPE  | TOPIC  |
+|:-:|---|---|
+| 10 min  | [Review Pre-work](#review-prework-10-mins)  |   |
+| 10 min  | [Opening](#opening-10-mins)  | Discuss lesson objectives |
+| 15 min  | [Introduction](#introduction-welcome-to-android-15-mins)  | Welcome to Android! |
+| 20 min  | [Demo](#demo-developing-for-android-20-mins)  | Developing for Android |
+| 5 min  | [Break](#break-5-mins)  |   |
+| 15 min  | [Introduction](#introduction-views-15-mins)  | Views |
+| 10 min  | [Guided Practice](#guided-practice-lets-draw-a-few-layouts-10-mins)  | Let's draw a few Layouts |
+| 20 min  | [Introduction](#introduction-layouts-and-xml-20-mins)  | Layouts and XML |
+| 10 min  | [Demo](#demo-xml-layout-10-mins)  | XML Layout |
+| 10 min  | [Demo](#demo-design-editor-10-mins)  | Design editor |
+| 20 min  | [Independent Practice](#independent-practice-build-your-own-app-20-mins)  | Build your own app! |
+| 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
+
 ## Opening (10 mins)
 
 #### Instructor Intro
@@ -384,7 +401,7 @@ Now, switch to the text editor and see our button appear in XML.
 ## Independent Practice: Build your own app! (20 mins)
 
 > Instructor Note: This can be done as a pair programming exercise. First, share this link with students and ask them to click on "View Raw" to download the starter code: https://github.com/generalassembly-studio/android-programming-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/DemoApp.zip
-Then, show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed. Be sure to help students through opening the starter code. 
+Then, show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed. Be sure to help students through opening the starter code.
 
 Open up the starter-code contained in the zip file. This starter code is an Android Studio project that contains empty layout files for you to fill out. It also contains java files written for you that handle all of the logic for button presses and switching screens.
 
