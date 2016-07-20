@@ -11,20 +11,20 @@ This workshop provides students with basic knowledge of the history of Android, 
 
 #### Students Will Learn How To:
 
-- Understand the basic history and concepts of Android
-- Explain the strengths and weaknesses of Android
-- Identify the basic Views in an Android app
-- Create a basic Android app
+- Describe the history and concepts of Android
+- Explain the strengths and weaknesses of the Android operating system
+- Identify the basic Views (User Interface Components) in an Android app
+- Create a two-screen Android app
 
 ---
 
 Included in this repository:
 
-1. **Onboarding Materials** - Background context & instructions for how to make use of our materials.
+1. [**Onboarding Materials**](curriculum/01-onboarding) - Background context & instructions for how to make use of our materials.
 
-2. **Teaching Materials** - Lesson plan, activities & assessment, deck, and handout.
+2. [**Teaching Materials**](curriculum/02-materials) - Lesson plan, activities and assessment, deck, and handout.
 
-3. [**Contributing Guidelines**](contributing-guidelines.md) - information about how to submit materials you create, adapt, or fix back to the global General Assembly team
+3. [**Contributing Guidelines**](contributing.md) - information about how to submit materials you create, adapt, or fix back to the global General Assembly team
 
 
 ## To Get Started
@@ -35,7 +35,7 @@ Document                            | Description
 ----------------------------------- | ------------------------------------------
 [Background](curriculum/01-onboarding/01-background.md) | Who we are and what we offer at General Assembly
 [Materials](curriculum//01-onboarding/02-materials.md) | Some context around the materials we provide
-[Roadmap](curriculum//01-onboarding/03-roadmap.md) | Prerequisites and suggested follow-up plan
+[Roadmap](curriculum//01-onboarding/03-roadmap.md) | Prerequisites and some suggestions for how to learn more Android skills
 [Resources](curriculum//01-onboarding/04-tools-policies.md) | Description of tools used and relevant policies for this workshop
 
 

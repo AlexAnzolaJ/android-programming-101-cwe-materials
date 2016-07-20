@@ -1,8 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Tools & Policies
 
-This course teaches students about the basics of the Android ecosystem and Android development. This field is constantly evolving, and it would be impossible to introduce every tool in one workshop.
-
-Instead, General Assembly provides a core set of objectives for this workshop, along with guidelines for how to ensure students reach these objectives. As an instructor, you have the opportunity and responsibility to adapt these recommendations to your local context and modify/expand on any of these tools as you see fit.
+This course teaches students about the basics of the Android ecosystem and Android development. This field is constantly evolving, and it would be impossible to introduce every tool in one workshop.  Instead, General Assembly provides a core set of objectives for this workshop, along with guidelines for how to ensure students reach these objectives. As an instructor, you have the opportunity and responsibility to adapt these recommendations to your local context and modify/expand on any of these tools as you see fit.
 
 
 ## Required Tools
@@ -31,7 +29,7 @@ It is also our experience that students should have laptops with screens of at l
 
 #### Operating Systems Policy
 
-**Mac:** We require students using Mac laptops to be able to run at least Mac OS X 10.8 Mountain Lion or greater. *This rules out some older MacBooks*
+**Mac:** We require students using Mac laptops to be able to run at least Mac OS X 10.8.5 or higher. *This rules out some older MacBooks*
 
 **PC/Linux:** Students are welcome to bring their own PC or Linux machines, but once again, we **cannot guarantee* tech support for these devices.**
 
