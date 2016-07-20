@@ -18,11 +18,11 @@ In order to make sure that students are best prepared for this workshop, we sugg
 
 ## Follow-up Recommendations
 
-In order to provide students with continued pathways for growth, we suggest pointing students to the following resources to continue learning: 
+In order to provide students with continued pathways for growth, we suggest pointing students to the following resources to continue learning:
 
 * [Android Development Immersive](https://generalassemb.ly/education/android-development-immersive)
 * [Head First Android](https://www.amazon.com/Head-First-Android-Development-Griffiths/dp/1449362184/ref=sr_1_1?ie=UTF8&qid=1467811744&sr=8-1&keywords=head+first+android)
 
 ---
 
-Next up are the resources we provide for this [class](./04-tools-policies.md).
+Next up are tools and resources we ask students to come to class with - read up [here](./02-tools-policies.md).
