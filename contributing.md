@@ -12,7 +12,7 @@ _Note: A lot of the language in this Readme has been taken and adapted from GitH
 
 ## Contributing Guidelines: Issues and Pull Requests
 
-Contributing back should take the form of issues or pull requests depending on the nature of the contribution.  Contributions via GitHub pull requests and issues should *only* be created for curriculum or WDI fundamentals.  Production-related feedback or questions should be submitted via [GA's helpdesk](ga.co/helpdesk).
+Contributing back should take the form of issues or pull requests depending on the nature of the contribution.  Contributions via GitHub pull requests and issues should *only* be created for curriculum.  Operations-related feedback or questions should be submitted to your GA point of contact via email.
 
 #### Create an Issue
 
@@ -30,46 +30,21 @@ Here are a few tips when creating an issue:
 
 #### Create a Pull Request
 
-If you’re able to patch the bug, create a new lesson/lab, or correct some syntax/spelling yourself – fantastic! Make a pull request with your changes! Be sure you’ve read our [styleguide](templates/styleguide.md) and follow accordingly as it will speed up the merging process. Once you’ve submitted a pull request, the owners and maintainers will carefully review your code/suggestions to determine whether or not more action is needed or the request should be merged or closed.
+If you’re able to patch the bug or correct some syntax/spelling yourself – fantastic! Make a pull request with your changes! Once you’ve submitted a pull request, the owners and maintainers will carefully review your code/suggestions to determine whether or not more action is needed or the request should be merged or closed.
 
 Here are a few tips when creating a pull request:
 
-- All pull requests should be submitted from a feature branch on your local fork, straight to *generalassembly-studio/adi-course-materials/master*.
+- All pull requests should be submitted from a feature branch on your local fork, straight to *generalassembly-studio/android-programming-101-cwe-materials/master*.
 
-- Before submitting a pull request, please make sure your local feature branch is up to date with generalassembly-studio/adi-course-materials/master:
+- Before submitting a pull request, please make sure your local feature branch is up to date with generalassembly-studio/android-programming-101-cwe-materials/master:
 
 ```bash
-$ git remote add upstream git@github.com:generalassembly-studio/adi-course-materials
+$ git remote add upstream git@github.com:generalassembly-studio/android-programming-101-cwe-materials
 $ git fetch --all
 $ git checkout -b my-feature-branch upstream/master
 ```
 
-- Contribute in the style of this repository to the best of your abilities. This may mean using indents, semi colons or comments differently than you would in your own repository, but makes it easier for the maintainer to merge, others to understand and maintain in the future.  Again, look at our [styleguide](resources/guidelines/styleguide.md) for more information.
-
-- If you're submitting a new _lesson_, _lab_, or _homework_ resource, **create a feature branch** for each individual resource.  Lesson branch naming should follow the same naming style and convention we use for folders. For example:
-
-```bash
-$ git checkout master
-On branch master
-nothing to commit, working directory clean
-
-$ git checkout -b intro-to-relational-data-modeling
-Switched to a new branch intro-to-relational-data-modeling
-```
-
-- If a lesson/lab/homework both have the exact same name, just denote which with `-lesson` or `-lab`.
-
-```bash
-$ git checkout -b layouts-partials-and-views-lesson
-```
-
-... or ...
-
-```bash
-$ git checkout -b layouts-partials-and-views-lab
-```
-
-- Again, if submitting a new lesson or lab resource, please make sure the resources are in the standard [lesson](templates/lessons) and [lab](templates/labs) templates.
+- Contribute in the style of this repository to the best of your abilities. This may mean using indents, semi colons or comments differently than you would in your own repository, but makes it easier for the maintainer to merge, others to understand and maintain in the future.  
 
 
 ##### Open Pull Requests

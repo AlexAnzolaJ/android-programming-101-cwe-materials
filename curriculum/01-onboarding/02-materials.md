@@ -30,6 +30,7 @@ Our [materials](../02-materials) folder is organized in the following pattern:
   - _Starter Code_: code to help students begin activities.
   - _Solution Code_: completed versions of code to help students check their work.
   - _Screenshots_: images referenced during the workshop
+  - _Assets_: a one-pager highlighting key concepts and recommendations for follow-up to be distributed at the end of class
 
 ## Workshop Structure
 

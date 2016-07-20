@@ -74,7 +74,7 @@ _Open-source software (OSS) is computer software with its source code made avail
 
  This is the opposite of iOS, where the exact details about the operating system are only known by Apple, and no modifications or customization is allowed.
 
-> Check: Take 1 minute to discuss with the class why this is important/useful.
+> Check: With the class, take 1 minute to discuss why this is important/useful.
 
 ## Introduction: Welcome to Android! (15 mins)
 
@@ -82,7 +82,7 @@ _Open-source software (OSS) is computer software with its source code made avail
 
 Android is known for having many devices created by manufacturers, whereas Apple has a handful of devices and one manufacturer for iOS.
 
-> Check: Talk with the person next to you and take 3 minutes to predict the pros and cons of having multiple devices from different companies.  
+> Check: Ask students to talk with the person next to them and take 3 minutes to predict the pros and cons of having multiple devices from different companies.  
 
 > Instructor Note: Call on one student group to share out.
 
@@ -116,9 +116,9 @@ Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwich, Jellybean, Kit
 
 [Here's how the versions are broken down, and how many people own each version.](http://developer.android.com/about/dashboards/index.html)
 
-> Walk the students through the dashboard.
+> Instructor Note: Walk the students through the dashboard.
 
-> Ask the students what the two most popular versions of Android are. Then, in pairs, give them a few minutes to discuss why they think the most recent version is not the most popular.
+> Check: Ask the students what the two most popular versions of Android are. Then, in pairs, give them a few minutes to discuss why they think the most recent version is not the most popular.
 
 
 As of today, most people own KitKat and Lollipop devices (as Marshmallow is still comparatively new). Unlike iOS, each device manufacturer is responsible for updating their devices to newer versions of Android. Some companies move at much slower speeds, which leaves many users stuck on older versions of Android.
@@ -149,7 +149,7 @@ It's *almost always* best to use an actual phone or tablet to test your app. The
 
 However, as mentioned in previous sections, there are many devices with varying screen sizes and a handful of versions for each device. Realistically, it's not possible to have access to every combination of device and version.
 
-> Check: To combat this issue, some developers believe in testing their app against the smaller selection of latest and more popular devices. Discuss why would this possibly be a bad thing?
+> Check: To combat this issue, some developers believe in testing their app against the smaller selection of latest and more popular devices. Discuss with the class why this could possibly be a bad thing.
 
  Not everyone has the latest phones or versions.  You would be excluding a subset of people with older devices and versions who might be experiencing problems with your app that newer phones aren't experiencing.
 
@@ -323,7 +323,7 @@ The **id** attribute is not mandatory, but is important. It is used whenever you
 
 > Instructor Note: In pairs, have the students add width, height, and id attributes to the button that was used as an example before.
 
-> Check: If I were to define an ImageView, what attributes would I be required to define?
+> Check: Ask, "If I were to define an ImageView, what attributes would I be required to define?"
 
 ## Demo: XML Layout (10 mins)
 
@@ -408,16 +408,14 @@ You must assign the following ids to your views:
 
 **Bonus**: Try changing the password edit text so it protects the text being typed.
 
-> Ask a student to go over their solution. Afterwards, point out a few interesting things in the Java code like how setError works, and how the password is checked.
+> Check: Ask one student to go over their solution. Afterwards, point out a few interesting things in the Java code like how setError works, and how the password is checked.
 
 ## Conclusion (5 mins)
 
-> Instructor Note: Distribute and explain the [one-page handout provided](#)
-
-A few review questions:
+> Instructor Note: Distribute and explain the [one-page handout provided](assets/android-programming-101-one-pager.pdf).  Then, discuss these key questions as a class.
 
 - What are some key advantages and disadvantages of Android?
 - How does Android differ from iOS?
-- Name at least 3 Views, and a few properties you can change on them
+- Identify three Views, and a few properties you can change on them.
 
 We've only scratched the surface of Android Development today, but hopefully this has given you a taste of being an app developer. Android is constantly growing and changing, and new, talented developers are always in demand.
