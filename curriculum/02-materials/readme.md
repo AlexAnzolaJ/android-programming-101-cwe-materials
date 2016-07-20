@@ -29,15 +29,11 @@ creator:
 - Download Android Studio
 - Install Emulator in Android Studio
 
-## Review Pre-work (10 mins)
-
-> Instructor Note: Take 10 minutes to make sure students have installed Java, Android, Studio, and an Emulator.  Be sure to inform students that this step is important for the rest of the workshop.
-
 ### LESSON GUIDE
 
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
-| 10 min  | [Review Pre-work](#review-prework-10-mins)  |   |
+| 10 min  | [Review](#review-prework-10-mins)  | Review pre-work |
 | 10 min  | [Opening](#opening-10-mins)  | Discuss lesson objectives |
 | 15 min  | [Introduction](#introduction-welcome-to-android-15-mins)  | Welcome to Android! |
 | 20 min  | [Demo](#demo-developing-for-android-20-mins)  | Developing for Android |
@@ -49,6 +45,10 @@ creator:
 | 10 min  | [Demo](#demo-design-editor-10-mins)  | Design editor |
 | 20 min  | [Independent Practice](#independent-practice-build-your-own-app-20-mins)  | Build your own app! |
 | 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
+
+## Review Pre-work (10 mins)
+
+> Instructor Note: Take 10 minutes to make sure students have installed Java, Android, Studio, and an Emulator.  Be sure to inform students that this step is important for the rest of the workshop.
 
 ## Opening (10 mins)
 
