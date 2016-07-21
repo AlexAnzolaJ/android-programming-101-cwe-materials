@@ -10,10 +10,10 @@ creator:
 
 ### LEARNING OBJECTIVES
 *After this lesson, students will be able to:*
-- Describe the history and concepts of Android
+- Describe the history and concepts pertaining to Android development
 - Explain the strengths and weaknesses of the Android operating system
 - Identify the basic Views (User Interface Components) in an Android app
-- Create a two-screen Android app, allowing the user to enter a username and password on a login screen, and then move to a welcome screen after logging in.
+- Create a two-screen Android app with a login and welcome screen
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -24,7 +24,7 @@ creator:
 
 ### STUDENT PRE-WORK
 - A laptop is required for this workshop.  For those on Windows, you’ll need Microsoft Windows 7/8/10 (32- or 64-bit).  For those with Macs, you’ll need the Mac OS X 10.8.5 or higher, up to 10.11.4 (El Capitan)
-- Have basic technical aptitude and orientation to computers, and curiosity to learn new tools
+- Have basic technical aptitude and orientation to computers, and a curiosity to learn new tools
 - Download Java Development Kit (Install this first. Choose the correct link for your operating system in the Java SE Development Kit 8u92 section)
 - Download Android Studio
 - Install Emulator in Android Studio
@@ -72,10 +72,10 @@ Welcome! We are here today to dip our toe in the water of Android Development. W
 
 Let's review what we're going achieve by the end of today's lesson:
 
-- Describe the history and concepts of Android
+- Describe the history and concepts of Android development
 - Explain the strengths and weaknesses of the Android operating system
 - Identify the basic Views (User Interface Components) in an Android app
-- Create a two-screen Android app, allowing the user to enter a username and password on a login screen, and then move to a welcome screen after logging in.
+- Create a two-screen Android app with a login and welcome screen
 
 But before we dive in, a bit about you!
 
@@ -83,9 +83,9 @@ But before we dive in, a bit about you!
 
 #### What is Android?
 
-Android is a mobile operating system maintained by Google. It's an open source project, which can be defined as:
+Android is a mobile operating system maintained by Google. It's an open source project or **Open-source software (OSS)**, which can be defined as:
 
-_Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner._ - https://opensource.com/resources/what-open-source
+_computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner._ - https://opensource.com/resources/what-open-source
 
  In other words, [anyone can download the Android Operating System](https://source.android.com/source/index.html) and modify it!
 
@@ -162,7 +162,7 @@ As you build and test your app, you have to run it on a device to make sure it b
 
 > Check: In small groups of 3-4, ask the students to brainstorm some ideas for pros and cons of using physical devices to test their apps. Regroup, write their ideas on the board, and discuss. Use the ideas below for further talking points.
 
-It's *almost always* best to use an actual phone or tablet to test your app. The users would be using your app on a phone, so testing on one is ideal. Try to have at least one phone nearby to test on.
+It's *almost always* better to use an actual phone or tablet to test your app. The users would be using your app on a phone, so testing on one is ideal. Try to have at least one phone nearby to test on.
 
 However, as mentioned in previous sections, there are many devices with varying screen sizes and a handful of versions for each device. Realistically, it's not possible to have access to every combination of device and version.
 
@@ -198,9 +198,9 @@ One drawback is that because these are virtual, there are some features missing.
 
 Now, that we've covered the basics of Android's origins and the tools we use to develop Android apps, let's create an app of our own!
 
-Android apps can be broken down into two main components: visual and logic. The visual component is written in a markup language called XML, which will we discuss soon. The logic component is written in a programming language called Java. This controls all actions that occur in the app, such as what happens when you press a button.
+Android apps can be broken down into two main components: visual and logic. The **visual** component is written in a markup language called XML, which will we discuss soon. The **logic** component is written in a programming language called Java. This controls all actions that occur in the app, such as what happens when you press a button.
 
-Today, we are only going to be covering how to create the visual elements of an Android app and will not be dealing with the Java code that controls everything behind the scenes.
+Today, we are only going to be covering how to create the visual elements of an Android app. We will not be dealing with the Java code that controls everything behind the scenes.
 
 #### What is a view?
 
@@ -228,7 +228,7 @@ Simply, they display text that's provided to them. You can change the text, text
 
 Buttons are fancy TextViews. Just like a TextView, you can set its text and change its font attributes.
 
-Buttons, by default, have a background that react to a user's touch. (i.e., it looks like you are pressing a physical button). You can create your own custom buttons with unique behavior (or any custom View for that matter).
+Buttons, by default, have a background and react to a user's touch. (i.e., it looks like you are pressing a physical button). You can create your own custom buttons with unique behavior (or any custom View for that matter).
 
 #### Identifying views?
 
@@ -275,7 +275,7 @@ Now we know about the visual building blocks for an app, let's see them in actio
 
 > Instructor Note: Lead the students through creating a new Android Studio project, and open the layout XML.
 
-Android Studio provides two ways of creating layouts: a design editor, and a text editor. The design editor is a drag and drop interface, whereas the text editor is purely writing code. Each has their advantages and disadvantages, so we will take a look at both.
+Android Studio provides two ways of creating layouts: a design editor and a text editor. The design editor is a drag and drop interface, whereas the text editor is purely for writing code. Each has their own advantages and disadvantages, so we will take a look at both.
 
 #### XML
 
@@ -297,7 +297,6 @@ Alternatively, it can be written like this.
 
 Elements that don't hold other views, like a Button, can be defined with a `/` at the end of the tag instead of having a matching ending tag. If you want a button to appear on the screen, you put that XML element in your layout XML file.
 
-
 Attributes (the other text inside the angle brackets) define how the views and layouts are displayed to the user. An attribute has a name and a value. For instance, you can set attributes like color and size.
 
 Let's add an attribute to our button.
@@ -310,7 +309,7 @@ This makes a button, sets an attribute called `android:text` to the value "Press
 
 When we created this project, it added an XML element for us, a RelativeLayout.
 
-> Instructor Note: Point out the RelativeLayout tag already existing. Ask if anyone remembers the other Layout discussed earlier, and have them change it to the LinearLayout and add a vertical orientation
+> Instructor Note: Point out the RelativeLayout tag already existing. Ask if anyone remembers the other Layout discussed earlier, and have them change it to the LinearLayout and add a vertical orientation.
 
 We just changed our RelativeLayout to a LinearLayout, so our elements will be displayed vertically on the screen.
 
@@ -338,7 +337,7 @@ Every element ***is required*** to have **layout_width** and **layout_height** a
 
 The **id** attribute is not mandatory, but is important. It is used whenever you want to reference a view, such as in a RelativeLayout, or if you want something to happen when you click on it. Think of it like giving your view a unique name you can call it.
 
-> Instructor Note: In pairs, have the students add width, height, and id attributes to the button that was used as an example before.
+> Instructor Note: In pairs, have the students add width, height and id attributes to the button that was used as an example before.
 
 > Check: Ask, "If I were to define an ImageView, what attributes would I be required to define?"
 
@@ -401,7 +400,7 @@ Now, switch to the text editor and see our button appear in XML.
 ## Independent Practice: Build your own app! (20 mins)
 
 > Instructor Note: This can be done as a pair programming exercise. First, share this link with students and ask them to click on "View Raw" to download the starter code: https://github.com/generalassembly-studio/android-programming-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/DemoApp.zip
-Then, show the slide for this activity in the deck while you go over the instructions. Also, show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed. Be sure to help students through opening the starter code.
+Then, show the slide for this activity in the deck while you go over the instructions. Also show the students what the final app should look like. As the students are working, walk around the room to monitor their progress, answer questions, and give suggestions when needed. Be sure to help students get through opening the starter code.
 
 Open up the starter-code contained in the zip file. This starter code is an Android Studio project that contains empty layout files for you to fill out. It also contains java files written for you that handle all of the logic for button presses and switching screens.
 
@@ -430,10 +429,10 @@ You must assign the following ids to your views:
 
 ## Conclusion (5 mins)
 
-> Instructor Note: Distribute and explain the [one-page handout provided](assets/android-programming-101-one-pager.pdf).  Then, discuss these key questions as a class.
+> Instructor Note: Distribute and explain the [one-page handout provided](assets/android-programming-101-one-pager.pdf).  Then, discuss the following key questions as a class:
 
 - What are some key advantages and disadvantages of Android?
 - How does Android differ from iOS?
-- Identify three Views, and a few properties you can change on them.
+- Identify three Views and a few properties you can change on them.
 
 We've only scratched the surface of Android Development today, but hopefully this has given you a taste of being an app developer. Android is constantly growing and changing, and new, talented developers are always in demand.
